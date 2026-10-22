@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore writing and content project information.">
+  <meta name="theme-color" content="#f8f6f0">
+
+  <title>Fatima Writing Company</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];
+    t=b.createElement(e);t.async=!0;
+    t.src=v;
+    s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)
+    }(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1864265518272375');
+    fbq('track', 'PageView');
+  </script>
+
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1864265518272375&ev=PageView&noscript=1"
+      alt="">
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #222c27;
+      background: #f8f6f0;
+      line-height: 1.7;
+    }
+
+    .container {
+      width: min(100% - 32px, 720px);
+      margin: auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 22px 0;
+      border-bottom: 1px solid #e4dfd3;
+    }
+
+    .logo {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    .small-link {
+      color: #176c50;
+      font-size: 12px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 58px 0 36px;
+    }
+
+    .label {
+      display: inline-block;
+      border: 1px solid #d9c9a8;
+      color: #94733a;
+      border-radius: 30px;
+      padding: 6px 14px;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+    }
+
+    h1 {
+      margin-top: 22px;
+      font-size: clamp(34px, 7vw, 54px);
+      line-height: 1.2;
+      letter-spacing: -1.5px;
+    }
+
+    h1 span {
+      color: #9b7b43;
+    }
+
+    .description {
+      max-width: 490px;
+      margin: 18px auto 26px;
+      color: #68716b;
+      font-size: 14px;
+    }
+
+    .button {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      background: #176c50;
+      color: white;
+      border-radius: 6px;
+      padding: 15px 25px;
+      min-height: 52px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      transition: background .2s;
+    }
+
+    .button:hover {
+      background: #10543d;
+    }
+
+    .hint {
+      font-size: 11px;
+      color: #788078;
+      margin-top: 12px;
+    }
+
+    .opportunities {
+      padding: 22px 0;
+    }
+
+    .section-title {
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    .section-intro {
+      font-size: 13px;
+      color: #68716b;
+      margin-bottom: 22px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      background: #fffefa;
+      border: 1px solid #e5dfd2;
+      padding: 20px 16px;
+      border-radius: 8px;
+    }
+
+    .card .icon {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    .card p {
+      font-size: 12px;
+      color: #68716b;
+    }
+
+    .info {
+      margin-top: 30px;
+      padding: 23px;
+      border: 1px solid #e1d8c6;
+      border-radius: 8px;
+      background: #f1ede3;
+    }
+
+    .info h2 {
+      font-size: 17px;
+      margin-bottom: 10px;
+    }
+
+    .info p {
+      color: #626b64;
+      font-size: 12px;
+      margin-top: 7px;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    .cta h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .cta p {
+      font-size: 13px;
+      color: #68716b;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      border-top: 1px solid #e4dfd3;
+      text-align: center;
+      padding: 22px 0;
+      color: #747a72;
+      font-size: 11px;
+    }
+
+    @media (max-width: 480px) {
+      .hero {
+        padding-top: 42px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 18px;
+      }
+
+      header {
+        align-items: flex-start;
+      }
+
+      .logo {
+        max-width: 65%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="container">
+    <div class="logo">FATIMA WRITING COMPANY</div>
+    <a class="small-link telegram-link" href="#join">
+      Contact / Join ↗
+    </a>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <span class="label">WRITING &amp; CREATIVE WORK</span>
+
+      <h1>
+        Turn your skills into
+        <span>meaningful work.</span>
+      </h1>
+
+      <p class="description">
+        Explore writing and content-related project information.
+        Review requirements, project terms and the application
+        process before deciding to participate.
+      </p>
+
+      <a class="button telegram-link" href="#join">
+        <span>➤</span>
+        Explore Opportunities
+        <span>↗</span>
+      </a>
+
+      <p class="hint">
+        Read the project details before applying.
+      </p>
+    </section>
+
+    <section class="opportunities">
+      <h2 class="section-title">Explore Work Categories</h2>
+
+      <p class="section-intro">
+        Opportunities depend on available projects and their
+        individual requirements.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="icon">✍️</div>
+          <h3>Writing</h3>
+          <p>Written content and original content creation projects.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">📚</div>
+          <h3>Book Projects</h3>
+          <p>Book-related content and manuscript assignments.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">📝</div>
+          <h3>Copywriting</h3>
+          <p>Content drafting for suitable briefs and requirements.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">💻</div>
+          <h3>Document Work</h3>
+          <p>Document formatting and specified content tasks.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="info">
+      <h2>Important Project Information</h2>
+      <p>• Eligibility and task requirements vary by project.</p>
+      <p>• Confirm payment, deadlines and deliverables in writing.</p>
+      <p>• Verify the organizer's identity and contact details.</p>
+      <p>• Review any fees and terms before making a payment.</p>
+      <p>• Never share OTPs, passwords or banking credentials.</p>
+    </section>
+
+    <section class="cta" id="join">
+      <h2>Want to know more?</h2>
+
+      <p>
+        Visit the Telegram channel for additional information
+        and questions about available projects.
+      </p>
+
+      <a class="button telegram-link"
+         href="https://t.me/+Ntf5Tj33r1U4ODU1"
+         target="_blank"
+         rel="noopener noreferrer"
+         id="joinButton">
+        Join Telegram Channel ↗
+      </a>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>Fatima Writing Company</p>
+    <p>Review project terms before participation.</p>
+    <p>© <span id="year"></span> All rights reserved.</p>
+  </footer>
+
+  <script>
+    const TELEGRAM_URL = 'https://t.me/+Ntf5Tj33r1U4ODU1';
+
+    document.querySelectorAll('.telegram-link').forEach(function(link) {
+      link.href = TELEGRAM_URL;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+    });
+
+    document.getElementById('year').textContent =
+      new Date().getFullYear();
+
+    document.getElementById('joinButton').addEventListener('click', function() {
+      if (typeof window.fbq === 'function') {
+        fbq('track', 'Contact', {
+          content_name: 'Telegram Channel'
+        });
+      }
+    });
+  </script>
+</body>
+</html>
